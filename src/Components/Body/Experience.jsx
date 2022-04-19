@@ -10,7 +10,7 @@ function Experience() {
         return (
           <div key={item.id}>
             <div>
-              <h2>{item.title}</h2>
+              <h2 style={{ lineHeight: "30px" }}>{item.title}</h2>
               <p className="Experience__container--text">{item.location}</p>
               <p className="Experience__container--text">{item.date}</p>
             </div>

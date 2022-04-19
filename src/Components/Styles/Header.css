@@ -43,3 +43,15 @@
 .header__container--address-box ul li a:hover {
   color: var(--header-color);
 }
+
+@media only screen and (max-width: 800px) {
+  .header__container--address-box ul {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+
+  .header__container--address-box ul li {
+    margin-bottom: 10px;
+  }
+}
