@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;500&display=swap");
+
+:root {
+  --header-color: #4353ff;
+  --text-color: rgb(104, 103, 103);
+  --font-family-header: "Open Sans", sans-serif;
+  --font-family-text: "Inter", sans-serif;
+}
+
+.header__container--box {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px;
+}
+
+.header__container--name-box h1 {
+  color: var(--header-color);
+  font-family: var(--font-family-header);
+  margin-bottom: 5px;
+}
+
+.header__container--name-box span {
+  font-family: var(--font-family-header);
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.header__container--address-box ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  flex-direction: row;
+  list-style: none;
+}
+
+.header__container--address-box ul li a {
+  margin: 5px 20px;
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.header__container--address-box ul li a:hover {
+  color: var(--header-color);
+}
